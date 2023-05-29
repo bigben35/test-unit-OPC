@@ -7,6 +7,8 @@ use Symfony\Component\Config\Definition\Exception\Exception;
 class Product
 {
     const FOOD_PRODUCT = 'food';
+    private $price;
+    private $type;
 
     public function __construct($name, $type, $price)
     {
